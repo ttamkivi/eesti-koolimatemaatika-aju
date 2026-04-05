@@ -1,0 +1,28 @@
+baseURL = 'https://ttamkivi.github.io/eesti-koolimatemaatika-aju/'
+languageCode = 'et'
+title = 'Eesti Koolimatemaatika Aju'
+theme = 'hugo-book'
+
+[params]
+BookRepo = 'https://github.com/ttamkivi/eesti-koolimatemaatika-aju'
+BookEditPath = 'edit/main/'
+BookDateFormat = '2. January 2006'
+BookSearch = true
+BookMenuBundle = '/menu'
+BookSection = 'docs'
+BookToC = true
+BookComments = false
+BookLogo = '/images/logo.svg'
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+[markup.goldmark.extensions]
+[markup.goldmark.extensions.passthrough]
+enable = true
+[markup.goldmark.extensions.passthrough.delimiters]
+block = [['$$', '$$']]
+inline = [['$', '$']]
+
+[menu]
