@@ -8,11 +8,9 @@ BookRepo = 'https://github.com/ttamkivi/eesti-koolimatemaatika-aju'
 BookEditPath = 'edit/main/'
 BookDateFormat = '2. January 2006'
 BookSearch = true
-BookMenuBundle = '/menu'
 BookSection = 'docs'
 BookToC = true
 BookComments = false
-BookLogo = '/images/logo.svg'
 
 [markup]
 [markup.goldmark]
@@ -24,5 +22,31 @@ enable = true
 [markup.goldmark.extensions.passthrough.delimiters]
 block = [['$$', '$$']]
 inline = [['$', '$']]
+
+[module]
+[[module.mounts]]
+source = "content"
+target = "content"
+[[module.mounts]]
+source = "oppekava"
+target = "content/docs/oppekava"
+[[module.mounts]]
+source = "teemad"
+target = "content/docs/teemad"
+[[module.mounts]]
+source = "eksamid"
+target = "content/docs/eksamid"
+[[module.mounts]]
+source = "olumpiaad"
+target = "content/docs/olumpiaad"
+[[module.mounts]]
+source = "opetajale"
+target = "content/docs/opetajale"
+[[module.mounts]]
+source = "agendid"
+target = "content/docs/agendid"
+[[module.mounts]]
+source = "static"
+target = "static"
 
 [menu]
