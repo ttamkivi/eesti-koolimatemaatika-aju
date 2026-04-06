@@ -1,6 +1,6 @@
 ---
 title: "Põhikooli lõpueksam"
-weight: 10
+weight: 1
 bookCollapseSection: true
 ---
 
