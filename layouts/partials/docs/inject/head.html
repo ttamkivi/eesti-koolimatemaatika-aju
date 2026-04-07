@@ -1,3 +1,60 @@
+<!-- Ülesannete ja lahenduste visuaalsed stiilid -->
+<style>
+/* Ülesanne — hele sinine taust */
+.ulesanne {
+  background: #e8f4fd;
+  border-left: 4px solid #2980b9;
+  border-radius: 0 8px 8px 0;
+  padding: 14px 16px;
+  margin: 16px 0 4px 0;
+}
+.ulesanne::before {
+  content: '📐 Ülesanne';
+  font-weight: 700;
+  color: #2980b9;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+/* Lahendus — hele roheline taust */
+details {
+  background: #eafaf1;
+  border-left: 4px solid #27ae60;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 16px;
+  margin: 0 0 16px 0;
+}
+details summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #27ae60;
+  padding: 4px 0;
+  user-select: none;
+}
+details summary::before {
+  content: '💡 ';
+}
+details[open] {
+  background: #d5f5e3;
+}
+/* Hindamisskeem — hele hall */
+details table {
+  background: #f8f9fa;
+  border-radius: 6px;
+  margin-top: 12px;
+}
+/* Vihje/hoiatus */
+.vihjekast {
+  background: #fef9e7;
+  border-left: 4px solid #f39c12;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 16px;
+  margin: 8px 0;
+}
+</style>
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous" onload="renderMathInElement(document.body, {delimiters: [{left: '$$', right: '$$', display: true},{left: '$', right: '$', display: false}]});"></script>
