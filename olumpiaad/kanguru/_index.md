@@ -27,11 +27,19 @@ Känguru kasutab **kolme raskusastet**:
 
 **Vale vastus** annab **-¼ punkti** (Benjamin: -0,75p; Juunior: -0,75...1,25p).
 
-## Harjutamine
+## 🤖 Harjuta Telegram-botiga
 
-Kasuta meie Telegram-botti harjutamiseks:
-- **Mait** (Benjamin): [t.me/mait_mata_bot](https://t.me/mait_mata_bot) → käsk `/kanguru`
-- **Jaan** (Juunior): [t.me/JaaniFyysika_bot](https://t.me/JaaniFyysika_bot) → käsk `/kanguru`
+| Bot | Kategooria | Klass | Link |
+|-----|-----------|-------|------|
+| **Jürgeni Känguru** | 🦘 Benjamin | 5.–6. klass | [t.me/jyrgeni\_kanguru\_bot](https://t.me/jyrgeni_kanguru_bot) |
+| **Mait** | 🦘 Benjamin | 5.–6. klass | [t.me/mait\_mata\_bot](https://t.me/mait_mata_bot) → `/kanguru` |
+| **Jaan** | 📚 Juunior | 9.–10. klass | [t.me/JaaniFyysika\_bot](https://t.me/JaaniFyysika_bot) → `/kanguru` |
+
+**Jürgeni Känguru** on pühendatud ainult Känguru ülesannetele:
+- Vali aasta (2022, 2023, 2024) või segu kõigist
+- Vasta inline nuppudega **A / B / C / D / E**
+- Korrektne punktiarvestus (+3/+4/+5p õige, -1p vale)
+- Näeb oma parimat skoori ja statistikat
 
 ## Ülesanded aastate kaupa
 
